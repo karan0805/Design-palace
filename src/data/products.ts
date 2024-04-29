@@ -1,0 +1,323 @@
+export const products = [
+  {
+    name: 'Pinstripe',
+    description: 'A beautiful set of geometric pinstripe pattern',
+    price: 29.99,
+    discountPercentage: 10,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 5,
+      },
+    },
+    imageURL: '/assets/products/geometric/pinstripe.jpeg',
+    sourceURL: '/assets/products/geometric/pinstripe.jpeg',
+    slug: 'geometric-pinstripe',
+  },
+  {
+    name: 'Houndstooth',
+    description: 'A beautiful set of geometric houndstooth pattern',
+    price: 29.99,
+    discountPercentage: 10,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 6,
+      },
+    },
+    imageURL: '/assets/products/geometric/houndstooth.jpeg',
+    sourceURL: '/assets/products/geometric/houndstooth.jpeg',
+    slug: 'geometric-houndstooth',
+  },
+  {
+    name: 'Chevron',
+    description: 'A beautiful set of geometric chevron pattern',
+    price: 29.99,
+    discountPercentage: 10,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 7,
+      },
+    },
+    imageURL: '/assets/products/geometric/chevron.jpeg',
+    sourceURL: '/assets/products/geometric/chevron.jpeg',
+    slug: 'geometric-chevron',
+  },
+  {
+    name: 'Argyle',
+    description: 'A beautiful set of geometric argyle pattern',
+    price: 29.99,
+    discountPercentage: 10,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 8,
+      },
+    },
+    imageURL: '/assets/products/geometric/argyle.jpeg',
+    sourceURL: '/assets/products/geometric/argyle.jpeg',
+    slug: 'geometric-argyle',
+  },
+  {
+    name: 'Tartan/Plaid',
+    description: 'A beautiful set of geometric Tartan/Plaid pattern',
+    price: 29.99,
+    discountPercentage: 10,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 9,
+      },
+    },
+    imageURL: '/assets/products/geometric/tartan-plaid.jpeg',
+    sourceURL: '/assets/products/geometric/tartan-plaid.jpeg',
+    slug: 'geometric-tartan-plaid',
+  },
+  {
+    name: 'Paisley',
+    description: 'A beautiful set of paisley patterns',
+    price: 34.99,
+    discountPercentage: 15,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 10,
+      },
+    },
+    imageURL: '/assets/products/floral/paisley.jpeg',
+    sourceURL: '/assets/products/floral/paisley.jpeg',
+    slug: 'floral-paisley',
+  },
+  {
+    name: 'Block Prints',
+    description: 'A beautiful set of traditional block prints',
+    price: 32.99,
+    discountPercentage: 12,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 11,
+      },
+    },
+    imageURL: '/assets/products/floral/block-prints.jpeg',
+    sourceURL: '/assets/products/floral/block-prints.jpeg',
+    slug: 'floral-block-prints',
+  },
+  {
+    name: 'Chintz',
+    description: 'A beautiful set of Chintz fabric designs',
+    price: 35.99,
+    discountPercentage: 10,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 12,
+      },
+    },
+    imageURL: '/assets/products/floral/chintz.jpeg',
+    sourceURL: '/assets/products/floral/chintz.jpeg',
+    slug: 'floral-chintz',
+  },
+  {
+    name: 'Lotus Motifs',
+    description: 'Elegant and traditional lotus motifs',
+    price: 28.99,
+    discountPercentage: 8,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 13,
+      },
+    },
+    imageURL: '/assets/products/floral/lotus-motifs.jpeg',
+    sourceURL: '/assets/products/floral/lotus-motifs.jpeg',
+    slug: 'floral-lotus-motifs',
+  },
+  {
+    name: 'Tropical Prints',
+    description: 'Vibrant and colorful tropical prints',
+    price: 30.99,
+    discountPercentage: 10,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 14,
+      },
+    },
+    imageURL: '/assets/products/floral/tropical-prints.jpeg',
+    sourceURL: '/assets/products/floral/tropical-prints.jpeg',
+    slug: 'floral-tropical-prints',
+  },
+  {
+    name: 'Tie-Dye',
+    description: 'Vibrant and colorful tie-dye patterns',
+    price: 31.99,
+    discountPercentage: 13,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 15,
+      },
+    },
+    imageURL: '/assets/products/abstract/tie-dye.jpeg',
+    sourceURL: '/assets/products/abstract/tie-dye.jpeg',
+    slug: 'abstract-tie-dye',
+  },
+  {
+    name: 'Batik',
+    description: 'Traditional and intricate batik designs',
+    price: 33.99,
+    discountPercentage: 11,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 16,
+      },
+    },
+    imageURL: '/assets/products/abstract/batik.jpeg',
+    sourceURL: '/assets/products/abstract/batik.jpeg',
+    slug: 'abstract-batik',
+  },
+  {
+    name: 'Splatter',
+    description: 'Expressive and dynamic splatter art',
+    price: 29.99,
+    discountPercentage: 9,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 17,
+      },
+    },
+    imageURL: '/assets/products/abstract/splatter.jpeg',
+    sourceURL: '/assets/products/abstract/splatter.jpeg',
+    slug: 'abstract-splatter',
+  },
+  {
+    name: 'Shibori',
+    description: 'Delicate and detailed shibori techniques',
+    price: 35.99,
+    discountPercentage: 15,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 18,
+      },
+    },
+    imageURL: '/assets/products/abstract/shibori.jpeg',
+    sourceURL: '/assets/products/abstract/shibori.jpeg',
+    slug: 'abstract-shibori',
+  },
+  {
+    name: 'Brush Stroke',
+    description: 'Artistic brush stroke patterns',
+    price: 32.99,
+    discountPercentage: 14,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 19,
+      },
+    },
+    imageURL: '/assets/products/abstract/brush-stroke.jpeg',
+    sourceURL: '/assets/products/abstract/brush-stroke.jpeg',
+    slug: 'abstract-brush-stroke',
+  },
+  {
+    name: 'Bandhani',
+    description: 'Traditional Bandhani tie-dye techniques from India',
+    price: 28.99,
+    discountPercentage: 7,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 20,
+      },
+    },
+    imageURL: '/assets/products/ethnic/bandhani.jpeg',
+    sourceURL: '/assets/products/ethnic/bandhani.jpeg',
+    slug: 'ethnic-bandhani',
+  },
+  {
+    name: 'Kalamkari',
+    description:
+      'Hand-painted or block-printed cotton textile, from Andhra Pradesh',
+    price: 36.99,
+    discountPercentage: 16,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 21,
+      },
+    },
+    imageURL: '/assets/products/ethnic/kalamkari.jpeg',
+    sourceURL: '/assets/products/ethnic/kalamkari.jpeg',
+    slug: 'ethnic-kalamkari',
+  },
+  {
+    name: 'Phulkari',
+    description: 'Embroidery technique from the Punjab region',
+    price: 30.99,
+    discountPercentage: 12,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 22,
+      },
+    },
+    imageURL: '/assets/products/ethnic/phulkari.jpeg',
+    sourceURL: '/assets/products/ethnic/phulkari.jpeg',
+    slug: 'ethnic-phulkari',
+  },
+  {
+    name: 'Madhubani',
+    description: 'Traditional Mithila painting from Bihar',
+    price: 34.99,
+    discountPercentage: 10,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 23,
+      },
+    },
+    imageURL: '/assets/products/ethnic/madhubani.jpeg',
+    sourceURL: '/assets/products/ethnic/madhubani.jpeg',
+    slug: 'ethnic-madhubani',
+  },
+  {
+    name: 'Ajrakh',
+    description: 'Block-printing technique using natural dyes',
+    price: 37.99,
+    discountPercentage: 15,
+    deliveryFormat: 'PSD, PNG files',
+    isPublished: true,
+    collection: {
+      connect: {
+        id: 24,
+      },
+    },
+    imageURL: '/assets/products/ethnic/ajrakh.jpeg',
+    sourceURL: '/assets/products/ethnic/ajrakh.jpeg',
+    slug: 'ethnic-ajrakh',
+  },
+];

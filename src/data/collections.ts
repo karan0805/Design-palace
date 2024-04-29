@@ -1,0 +1,36 @@
+import { Prisma } from '@prisma/client';
+
+export const collections: Prisma.CollectionCreateManyInput[] = [
+  {
+    name: 'Geometric Designs',
+    slug: 'geometric',
+    parentId: null,
+  },
+  { name: 'Floral Designs', slug: 'floral', parentId: null },
+  { name: 'Abstract Designs', slug: 'abstract', parentId: null },
+  { name: 'Ethnic Designs', slug: 'ethnic', parentId: null },
+  { name: 'Pinstripes', slug: 'pinstripes', parentId: 1 },
+  { name: 'Houndstooth', slug: 'houndstooth', parentId: 1 },
+  { name: 'Chevron', slug: 'chevron', parentId: 1 },
+  { name: 'Argyle', slug: 'argyle', parentId: 1 },
+  { name: 'Tartan/Plaid', slug: 'tartan-plaid', parentId: 1 },
+  { name: 'Paisley', slug: 'paisley', parentId: 2 },
+  { name: 'Block Prints', slug: 'block-prints', parentId: 2 },
+  { name: 'Chintz', slug: 'chintz', parentId: 2 },
+  { name: 'Lotus Motifs', slug: 'lotus-motifs', parentId: 2 },
+  {
+    name: 'Tropical Prints',
+    slug: 'tropical-prints',
+    parentId: 2,
+  },
+  { name: 'Tie-Dye', slug: 'tie-dye', parentId: 3 },
+  { name: 'Batik', slug: 'batik', parentId: 3 },
+  { name: 'Splatter', slug: 'splatter', parentId: 3 },
+  { name: 'Shibori', slug: 'shibori', parentId: 3 },
+  { name: 'Brush Stroke', slug: 'brush-stroke', parentId: 3 },
+  { name: 'Bandhani', slug: 'bandhani', parentId: 4 },
+  { name: 'Kalamkari', slug: 'kalamkari', parentId: 4 },
+  { name: 'Phulkari', slug: 'phulkari', parentId: 4 },
+  { name: 'Madhubani', slug: 'madhubani', parentId: 4 },
+  { name: 'Ajrakh', slug: 'ajrakh', parentId: 4 },
+];
